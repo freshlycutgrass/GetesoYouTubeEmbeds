@@ -23,7 +23,7 @@ function init()
 
     // Add the youtube formatter that will parse and unparse youtube embeds.
     $this->eso->formatter->addFormatter("youtube", "Formatter_YouTube");
-    $this->eso->addCSS("plugins/YouTube/embed.css");
+    $this->eso->addCSS("plugins/GetesoYouTubeEmbeds/embed.css");
    }
 
 }
